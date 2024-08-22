@@ -1,12 +1,3 @@
-# graphite.nvim
-Work with Graphite CLI in Telescope neovim
-
-
-## Installation and Setup
-
-### Lazy
-
-```lua
 return {
   'chrisaddy/graphite.nvim',
   dependencies = {
@@ -16,4 +7,3 @@ return {
     require('graphite').setup()
   end,
 }
-```
